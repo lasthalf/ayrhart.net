@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash",
+      "Edit",
+      "Write",
+      "Read",
+      "Glob",
+      "Grep",
+      "WebFetch",
+      "WebSearch",
+      "Task",
+      "TodoWrite"
+    ],
+    "ask": [
+      "Bash(git commit*)",
+      "Bash(git push*)",
+      "Bash(git merge*)",
+      "Bash(git rebase*)",
+      "Bash(git reset*)"
+    ],
+    "deny": []
+  },
+  "prompt": "This is a simple domain landing page. Before starting work, run 'beads onboard' to understand the current project state and available beads.",
+  "spinnerTipsEnabled": true
+}
